@@ -39,6 +39,13 @@ blockquote, q {
     content: '';
     content: none; }
 
+.posts {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: -2em;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0; }
